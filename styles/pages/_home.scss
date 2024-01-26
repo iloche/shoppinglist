@@ -1,0 +1,39 @@
+h1, h2{
+    text-align: center;
+    color: white;
+}
+.box-content, .box{
+    display: flex;
+    justify-content: center;
+}
+.box-content{
+    margin: 50px 0;
+    input{
+        width: 60%;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px 0 0 5px;
+    }
+    button{
+        background-color: rgb(52, 188, 52);
+        color: white;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+.box{
+    color: white;
+    ul{
+        li{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+            span{
+                cursor: pointer;
+            }
+        }
+    }
+}
